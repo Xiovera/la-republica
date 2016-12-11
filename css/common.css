@@ -1,8 +1,10 @@
 /*ESTA ES LA SECCION DEL FOOTER*/
-*{ }
 footer { background-color:#E7E6E6; color:black;}
 .logo { padding: 115px 0px; } 
-.contenido { font-size: 13px; padding: 30px 0px; }
+.contenido { font-size: 13px; padding: 30px 0px;  }
+.contenido .borde{  border-left: 2px solid #ECEBEB; }
 .contenido ul li a { color:black; text-decoration:none;}
 .line{color: black;}
 .linea a { text-decoration:none; color: black;}
+.post-footer{ padding: 10px ; border-top: 2px solid #ECEBEB;}
+/**FIN DE ESTILOS DEL FOOTER/
