@@ -1,9 +1,6 @@
 /*ESTA ES LA SECCION DEL FOOTER*/
-*
-{
-	
-}
-footer
-{
-	background-color:#E7E6E6;
-}
+*{ }
+footer { background-color:#E7E6E6; color:black;}
+.logo { padding: 115px 0px; } 
+.contenido { font-size: 13px; padding: 30px 0px; }
+.contenido ul li a { color:black; text-decoration:none;}
