@@ -1,7 +1,4 @@
 /* ësta es la parte del banner 1 */
-*{
-	outline: 1px solid red;
-}
 .container-fluid{
 	background-color: rgba(64, 210, 226, 0.31);
 }
@@ -12,11 +9,9 @@
 .im img{
 	width: 100%;
 }
-.degradado{
-	
+.degradado{	
 	width: 100%;
-	height: 100%;
-	
+	height: 100%;	
 }
 .container-fluid .btn1,.btn2{
 	background-color: orange;
@@ -27,5 +22,4 @@
 }
 .container-fluid .btn1{
 	margin-top: 30px;
-
 }
