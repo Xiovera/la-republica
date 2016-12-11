@@ -1,7 +1,5 @@
-/*----------------------------------------------->> POST-BANNER1 <<-----------------------------------------------*/
-
 .post-banner1 {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 20px 0;
     background-color: #f4f5f7;
 }
@@ -9,6 +7,7 @@
 .diarios{
     padding-left: 0;
     padding-bottom: 10px;
+    margin-right: 40px;
 }
 
 .diarios li {
@@ -25,6 +24,7 @@
 
 .redes{
     padding-left: 0;
+    margin-left: 10px;
 }
 
 .redes li {
@@ -65,16 +65,17 @@
 
 
 .search {
-    padding: 5px 0;
+    padding: 5px 0px;
     height: 30px;
     left: 10px;
-    float: left;
+    |float: left;
     line-height: 22px;
 }
 
     .search input {
         width: 0px;
-        margin-left: 90px;
+        float:right;
+        |margin-left: 100px;
         transition: all 0.7s ease-in-out;
         |height: 30px;
         line-height: 18px;
@@ -96,14 +97,17 @@
     top: 5px;
     border-radius:1px;
     margin-top: -11px;
-    margin-right: 30px;
     color:#808895;
     background-color: #f4f5f7;
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     font-size: 1em;
+border-left: 1px solid rgba(167, 165, 165, 0.69);
+    border-right: 1px solid rgba(167, 165, 165, 0.69);
+    
 }
 
 .btn i{
     color:#6b6e74;
 }
+
