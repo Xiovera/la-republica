@@ -1,0 +1,27 @@
+/*------------CELULARES-----*/
+@media screen and (max-width:767px){
+section.header-principal .left{
+    text-align: left;
+}
+    .menu{
+        visibility:hidden;
+    }  
+}
+/*------------TABLET-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+.menu{
+        visibility:hidden;
+    }   
+}
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+.nav>li>a{
+    font-size: 9px;
+} 
+}
+@media screen and (min-width:1200px){
+.nav>li>a{
+    font-size: 10px;
+}    
+}
+
