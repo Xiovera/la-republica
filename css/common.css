@@ -1,7 +1,4 @@
-/* ësta es la parte del banner 1 */
-*{
-	outline: 1px solid red;
-}
+/* SECCION DEL BANNER_1 */
 .container-fluid{
 	background-color: rgba(64, 210, 226, 0.31);
 }
