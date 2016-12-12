@@ -57,7 +57,7 @@ section.header-principal .right .box-texto{
     border-bottom-left-radius: 20px;
     border-right-style: none;
     background: #fff;    
-    padding: 10px 27px;
+    padding: 10px 46px;
     margin: 0;
 }
 section.header-principal .right img{
@@ -81,7 +81,7 @@ header nav a{
     padding: 10px 0;
 }
 .nav>li>a{
-    padding: 5px 8px;  
+    padding: 5px 10px;  
     font-size: 14px;
 }
 .nav>li>a:hover,.nav>li>a:focus, .nav>li>a:active,
@@ -101,6 +101,21 @@ header nav a{
 /*--------------END---MENU*/
 /*------------section.banner2*/
 section.banner2 img{
-    width: 95.5%;   
+    width: 100%; 
+    padding-right:10px;
+}
+.box-banner2{
+    position: relative;
+}
+section.banner2 a{
+    display: block;    
+}
+section.banner2 .open{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 0 10px;    
 }
 /*---------END---section.banner2*/
