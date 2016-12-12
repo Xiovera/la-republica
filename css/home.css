@@ -1,4 +1,37 @@
  /* Seccion-noticias-importantes */
-*{
+/**{
 	outline: 1px solid red;
+}*/
+
+div.cuadrito{
+	border: 1ps solid grey;
+}
+h5 span.rojito{
+	color: red;
+}
+img.principal{
+	height: 140px;
+}
+div .sombra{
+	background-color: rgba(2, 2, 2, 0.7);
+	z-index: 1;
+}
+b.negrito{
+	color: black;
+	font-size: 10px;
+}
+p.parrafo{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 10px;
+}
+p.sobre{
+	position: absolute;
+	z-index: 1;
+	transform: translateY(-100%) translateX(0%);
+	color: white;
+	font-size: 10px;
+}
+img .publicidad{
+	width: 100%
 }
