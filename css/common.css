@@ -9,10 +9,13 @@ section.banner1{
     background: purple;
 }
 /*--------HEADER-PRINCIPAL*/
+section.header-principal {
+    margin: 0 auto;
+}
 section.header-principal .left{
     padding: 15px 0;
 } 
-section.header-principal .center span{
+section.header-principal .medio span{
     background-color: #AE0808;
     color: #fff;
     padding: 5px;
@@ -20,12 +23,15 @@ section.header-principal .center span{
     position: relative;
     top: -10px;
 }
-section.header-principal .center{
+
+section.header-principal .medio{
+    display: inline-block;
     border: solid 2px #F2F2F2;
     border-bottom: solid 2px #AE0808;
     margin-top: 4px;
     padding: 5px 0;
 }
+
 section.header-principal .right .box-texto{
     display: inline-block;   
     background: #252D34;  
@@ -51,7 +57,7 @@ section.header-principal .right .box-texto{
     border-bottom-left-radius: 20px;
     border-right-style: none;
     background: #fff;    
-    padding: 10px 30px;
+    padding: 10px;
     margin: 0;
 }
 section.header-principal .right img{
@@ -76,13 +82,21 @@ header nav a{
 }
 .nav>li>a{
     padding: 5px 8px;  
-    font-size: 1rem;
+    font-size: 13px;
 }
 .nav>li>a:hover,.nav>li>a:focus, .nav>li>a:active,
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #003376;
     color: #fff;  
     padding: 5px 8px;      
+}
+.dropdown-menu>li>a{
+    background-color: #003376;
+    color: #fff;
+}
+.nav>li>a:hover, .select {
+    background-color: #003376;
+    color: #fff;
 }
 /*--------------END---MENU*/
 
