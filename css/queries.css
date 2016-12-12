@@ -1,6 +1,9 @@
 @media screen and (max-width:1000px)  
 {
-	.titulo {width: 80%;}
-	.titulo h1{font-size: 20px; }
-	
+	.titulo{ width: 70%; }
+	.titulo h1{ font-size: 25px; }
+	.contenedor .principal{ padding:30px; }
+	.contenedor .secundaria{ padding:30px; }
+	.img_pri{ height: auto; }
+	.img_secu1 , .img_secu2{ height: auto; }
 }
