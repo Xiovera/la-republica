@@ -1,1 +1,12 @@
-/* Inserta tu código común entre todas las páginas acá */
+/*ESTA ES LA SECCION DEL FOOTER*/
+footer { background-color:#E7E6E6; color:#6B6B6B;}
+footer h4{color: black;}
+.logo { padding: 115px 0px; } 
+.contenido { font-size: 13px; padding: 30px 0px;  }
+.contenido .borde{  border-left: 2px solid #ECEBEB; }
+.contenido ul li a { color:#6B6B6B; text-decoration:none;}
+.line{color: black;}
+.linea a { text-decoration:none; color: #AFADAD;}
+.post-footer{ padding: 10px ; border-top: 2px solid #ECEBEB;}
+/**FIN DE ESTILOS DEL FOOTER/
+/*footer revisado*/
