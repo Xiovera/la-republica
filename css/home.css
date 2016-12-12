@@ -1,1 +1,95 @@
+/*-------------- SECTION NOTICIAS --------------*/
 
+.ultimas-noticias{
+padding-top: 20px;}
+
+.tira .imagen{
+    padding-left: 0;
+    margin-left: -15px;    
+}
+
+.tira h4{
+    font-weight: 600;
+}
+
+.sprites img{
+overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boletin{
+padding: 30px 10px 20px 10px;
+background: url('../image/trama_square.jpg');
+    text-align: center;
+}
+
+.fondo{
+    background-color: #fff;
+}
+
+.boletin img{
+margin-top: -40px;
+}
+
+.boton{
+padding: 10px 0;}
+
+
+.boton a{
+padding: 5px 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.aweita{
+margin-top: 20px;
+padding: 10px;
+border: 1px solid rgba(159, 154, 154, 0.74);}
+
+.aweita .row{
+padding-top: 5px;}
+
+.tiramin1 img{
+width: 140%;
+margin-top:8px;
+}
+
+.destacado{
+    margin-top: 20px;
+}
+
+.destacado .titulo p{
+margin: 0 50px;
+    margin-top: -10px;
+    text-align: center;
+    background-color: rgb(170, 169, 169);
+}
+
+.destacado .titulo{
+padding-bottom: 10px;
+    border-top: 5px solid rgba(128, 128, 128, 0.62);;
+}
+
+.nazca{
+text-align: center;}
+
+.nazca img{
+width: 90%;
+}
+
+.sub-texto {
+    padding-top: 10px;
+    margin: 0 30px;
+    font-weight: 600;
+}
+.pequeimg img{
+width: 130%;
+    margin-top: 5px;
+}
+
+.noti{
+margin: 0 1px;
+}
+/*FIN DE LA SECCION */
