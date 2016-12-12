@@ -5,12 +5,12 @@
 }*/
 .titulo{ width: 80%; margin: 0 auto; }
 .titulo h1{font-size: 50px;}
-.img_pri{ height: 500px; width: 100%; }
-.img_secu1 , .img_secu2{ width: 100%; height: 240px; }
+.img_pri{  width: 100%; }
+.img_secu1 , .img_secu2{ width: 100%; height: 210px; }
 .contenedor{ padding: 0; }
 .principal { padding-left: 0px; padding-right: 10px; }
-.secundaria{ padding-right:0px; padding-left:10px; outline: 1px solid red;}
-.img_secu1{ margin-bottom:20px; }
+.secundaria{ padding-right:0px; padding-left:10px; }
+
 .shadow h2{ font-size: 35px; }
 .shadow_sec{outline: 1px solid red;}
 .shadow
@@ -25,10 +25,9 @@
 	margin-right: 10px;
 	
 }
-.shadow_sec
+.sad_1
 {
-	/*position: absolute; */
-
-
+	position: relative;
+	bottom:  50px;
+	background-color: red;
 }
-/*background: linear-gradient(to bottom,transparent 0,black 70%);*/
