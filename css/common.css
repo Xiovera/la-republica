@@ -9,9 +9,6 @@ section.banner1{
     background: purple;
 }
 /*--------HEADER-PRINCIPAL*/
-section.header-principal {
-    margin: 0 auto;
-}
 section.header-principal .left{
     padding: 15px 0;
 } 

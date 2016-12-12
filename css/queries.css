@@ -1,21 +1,34 @@
 /*------------CELULARES-----*/
+/*------------iPhone 5-----*/
 @media screen and (max-width:767px){
-section.header-principal .left{
-    text-align: left;
+    section.header-principal .box-texto p{
+        padding: 0px;        
+
+    } 
+    section.header-principal .box-texto{
+        font-size: 12px; 
+    }
+    section.header-principal .box-editorial span{
+        font-size: 7px; 
+        left: 0px;
+    }
 }
+/*----------END--iPhone 5-----*/
+@media screen and (max-width:767px){
     .menu{
         visibility:hidden;
     } 
+    section.header-principal {
+        margin: 0 30px;
+    }
     section.header-principal .right{
-    margin-top: -4px;
-}
-    section.header-principal .right{
-        text-align: center;
+        display: inline-block;
+        margin-top: -4px;
     }
 }
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
-.menu{
+    .menu{
         visibility:hidden;
     }          
 }
@@ -24,7 +37,10 @@ section.header-principal .left{
     section.header-principal .box-texto p{
         padding: 10px;
     }
-   
+    .nav>li>a{
+        padding: 5px 10px;  
+        font-size: 11px;
+    }
 }
 @media screen and (min-width:1200px){   
 }
