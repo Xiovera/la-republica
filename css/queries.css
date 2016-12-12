@@ -6,4 +6,7 @@
 	.contenedor .secundaria{ padding:30px; }
 	.img_pri{ height: auto; }
 	.img_secu1 , .img_secu2{ height: auto; }
+	.shadow{ margin-left:30px; margin-right:30px; padding: 0px 15px;}
+	.shadow h2{font-size: 24px;padding:0 10px; font-weight: bolder;}
+	
 }
