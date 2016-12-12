@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*ESTILOS DE MADAY*/
 *{
     padding: 0;
@@ -62,6 +63,8 @@ section.header-principal .right img{
     margin-bottom: 26px;
 }
 /*--------------END---HEADER-PRINCIPAL*/
+=======
+>>>>>>> 51f1a120fa2f0f37f9d22e454f367e1965bca1b4
 /*-----------------MENU*/
 header nav {
     display: inline-block;
@@ -97,6 +100,7 @@ header nav a{
     color: #fff;
 }
 /*--------------END---MENU*/
+<<<<<<< HEAD
 /*------------section.banner2*/
 section.banner2 img{
     width: 100%; 
@@ -119,3 +123,6 @@ section.banner2 .open{
 /*---------END---section.banner2*/
 
 /*FIN DE LOS ESTILOS MADAY*/
+=======
+
+>>>>>>> 51f1a120fa2f0f37f9d22e454f367e1965bca1b4
