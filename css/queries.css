@@ -9,6 +9,9 @@ section.header-principal .left{
     section.header-principal .right{
     margin-top: -4px;
 }
+    section.header-principal .right{
+        text-align: center;
+    }
 }
 /*------------TABLET-----*/
 @media screen and (min-width:768px) and (max-width:991px){
@@ -18,7 +21,9 @@ section.header-principal .left{
 }
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
-
+    section.header-principal .box-texto p{
+        padding: 10px;
+    }
    
 }
 @media screen and (min-width:1200px){   
