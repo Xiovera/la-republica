@@ -1,7 +1,5 @@
- /* Seccion-noticias-importantes */
-/**{
-	outline: 1px solid red;
-}*/
+/* SECCION NOTICIAS IMPORTANTES */
+
 .noticias-importantes img{width: 100%;}
 
 div.cuadrito{
@@ -33,3 +31,4 @@ p.sobre{
 img .publicidad{
 	width: 100%
 }
+/*FIN DE NOTICIAS IMPORTANTES*/
