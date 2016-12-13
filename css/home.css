@@ -27,6 +27,21 @@
     background-position:top;
     background-size: cover; 
 }
+.secundaria1
+{
+    background-image: url(../image/img_grid_secundario.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: 0;
+}
+.secundaria2
+{
+    background-image: url(../image/img_grid_secundario.jpg);
+    background-size: cover;
+    background-position: top;
+    margin-top: 20px;
+}
+
 .noticia_principal h4
 {
     font-size: 34px;
@@ -42,4 +57,19 @@
     color: #fff;
 }
 
+.noticia_secundaria1 h4 a
+{
+    color: #fff;
+}
+.noticia_secundaria1 h4
+{
+    font-size: 20px;
+    padding-top:25%;
+    margin-bottom: 5%;
+    margin: 0px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 2%;
+    margin-left: 20px;
+}
 /*-- END SECCION TITULAR--*/
