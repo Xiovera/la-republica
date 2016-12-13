@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /*QUERIES MADAY*/
 /*------------CELULARES-----*/
 /*------------iPhone 5-----*/
@@ -26,3 +27,18 @@
 }
 @media screen and (min-width:1200px){   
 }
+=======
+@media (max-width:314px)and (min-width:598px) {
+    .columnistas li img {
+        width: 100%;
+    }
+    .columnistas li {
+         display: inline-block;
+        font-size: 19px;
+        text-align: center;
+        padding-right:30px;
+    }
+}
+
+    
+>>>>>>> f78129b9e2e2c358f131458004fafe550c5b96a4
