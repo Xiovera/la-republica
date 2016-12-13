@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+/* SECCION DEL BANNER_1 */
+.banner_1{
+	background-color: rgba(64, 210, 226, 0.31);
+}
+.im{
+	padding-left: unset;
+	padding-right: unset;
+}
+.im img{
+	width: 100%;
+}
+.degradado{	
+	width: 100%;
+	height: 100%;	
+}
+.banner_1 .btn1,.btn2{
+	background-color: orange;
+	color: white;
+}
+.banner_1 .btn2{	
+	margin-left: 60px;
+}
+.banner_1 .btn1{
+	margin-top: 30px;
+}
+/* FIN DE SECCION DEL BANNER_1 */
 /*--------HEADER-PRINCIPAL*/
 section.header-principal .medio{
     display: inline-block;
