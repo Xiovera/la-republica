@@ -1,7 +1,7 @@
 
-@media (max-width:314px)and (min-width:598px) {
-    .columnistas li img {
-        width: 100%;
+@media (max-width:598px) {
+    .columnistas li {
+        width: 45% !important;
     }
     .columnistas li {
          display: inline-block;
@@ -9,6 +9,12 @@
         text-align: center;
         padding-right:30px;
     }
+}
+@media (max-width:598px) {
+    p.Mario {
+    font-size: 15px;
+}
+ 
 }
 
     
