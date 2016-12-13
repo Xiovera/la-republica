@@ -1,3 +1,5 @@
+
+
 /*-----------------MENU*/
 header nav {
     display: inline-block;
@@ -28,7 +30,7 @@ header nav a{
     background-color: #003376;    
     color: #fff;
 }
-.nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+.last-item-menu:hover{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;    
 }
@@ -40,4 +42,5 @@ header nav a{
     color: #fff;
 }
 /*--------------END---MENU*/
+
 
