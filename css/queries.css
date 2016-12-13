@@ -18,9 +18,10 @@
 /*------------DESKTOP-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
     .nav>li>a{
-        padding: 5px 10px;  
-        font-size: 11px;
+        padding: 5px 5px;  
+        font-size: 9px;
     }
+}
 }
 @media screen and (min-width:1200px){   
 }
