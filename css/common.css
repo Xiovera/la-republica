@@ -1,6 +1,6 @@
 
 /* SECCION DEL BANNER_1 */
-.container-fluid{
+.banner_1{
 	background-color: rgba(64, 210, 226, 0.31);
 }
 .im{
@@ -14,13 +14,14 @@
 	width: 100%;
 	height: 100%;	
 }
-.container-fluid .btn1,.btn2{
+.banner_1 .btn1,.btn2{
 	background-color: orange;
 	color: white;
 }
-.container-fluid .btn2{	
+.banner_1 .btn2{	
 	margin-left: 60px;
 }
-.container-fluid .btn1{
+.banner_1 .btn1{
 	margin-top: 30px;
 }
+/* FIN DE SECCION DEL BANNER_1 */
