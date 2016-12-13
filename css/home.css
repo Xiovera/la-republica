@@ -26,6 +26,19 @@ body *{
     border-bottom: 1px solid #a2a2a2;
 }
 
+.titulo-nota{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.nota{
+    padding-top: 30px;
+}
+
+.texto{
+    padding-top: 20px;
+}
+
 .imagen-nota{
     padding: 0;
 }
@@ -35,7 +48,7 @@ body *{
 }
 
 .botones img{
-    margin: 0 2px;
+    margin: 0 4px;
 }
 
 .botones i{
@@ -63,6 +76,7 @@ margin-top: 20px;
 
 .sp{
     padding: 0 30px;
+    padding-top: 30px;
 }
 
 .boton a{
@@ -72,9 +86,30 @@ padding: 5px 40px;
     border-radius: 4px;
 }
 
+#email{
+    background-color: #eeefee;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    border-top: 2px solid #dddddd;
+    border-right: 2px #dddddd;
+    border-left: border-right: 2px #dddddd;
+    height: 3em;
+    width: 17em;
+}
+
 .aweita{
     border: 1px solid rgba(159, 154, 154, 0.74);
     margin-top: 30px;
+}
+
+input[placeholder] {
+    font-size: 0.8em;
+    padding-left: 5px;
+}
+
+.logo-aweita{
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .aweita-noticia{
