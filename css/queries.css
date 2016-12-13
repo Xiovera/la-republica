@@ -135,10 +135,10 @@
 
 
 /*SECCION HERO*/
-@media screen and (max-width:1000px)  
+@media screen and (max-width:767px)
 {
-    .titulo{ width: 70%; }
-    .titulo h1{ font-size: 25px; }
+    .tituhero{ width: 100%; }
+    .tituhero { font-size: 25px; text-align: center;}
 }
 /*FIN SECCION HERO*/
 

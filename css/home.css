@@ -1,4 +1,9 @@
 
+
+*
+{
+    outline: 2px solid green;
+}
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{
     font-family: font-family: 'Heebo', sans-serif;
@@ -138,8 +143,8 @@ img .publicidad{
 
 
 /*SECCION HERO*/
-.titulo{ width: 80%; margin: 0 auto; }
-.titulo h1{font-size: 50px;}
+#titulo{ width: 80%; margin: 0 auto; }
+#titulo h1{font-size: 50px;}
 .hero .iconos ul li a :hover{ text-decoration: none;}
 .iconos{ display:inline-flex; color: #eeeeee; padding: 10px;}
 .iconos i { border: 2px solid #E3E3E3; background-color: #E3E3E3; padding:4px; font-size: 10px;}
