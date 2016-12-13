@@ -4,6 +4,26 @@
 {
     outline: 2px solid green;
 }
+/*--SECTION BANNER2--*/
+section.banner2 img{
+    width: 100%; 
+    padding-right:10px;
+}
+.box-banner2{
+    position: relative;
+}
+section.banner2 a{
+    display: block;    
+}
+section.banner2 .open{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 0 10px;    
+}
+/*--FIN SECTION BANNER2--*/
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{
     font-family: font-family: 'Heebo', sans-serif;
