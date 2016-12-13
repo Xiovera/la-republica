@@ -1,9 +1,6 @@
 
 
 /* SECCION NOTICIAS IMPORTANTES */
-/**{
-    outline: 1px solid red;
-}*/
 
 .cuadrito{
     border: 1px solid rgba(20, 25, 22, 0.3);
@@ -35,9 +32,6 @@ b.negrito{
     font-size: 12px;
 }
 
-/*.noticias-importantes{
-    
-}*/
 img .publicidad{
 	width: 100%
 }
