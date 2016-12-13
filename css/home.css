@@ -1,3 +1,4 @@
+
 /*.hero .row
 {
     outline: 2px solid green;
@@ -162,36 +163,39 @@ input[placeholder] {
     padding: 10px 0;
 }
 
+
 /* SECCION NOTICIAS IMPORTANTES */
 
-.noticias-importantes img{width: 100%;}
+.cuadrito{
+    border: 1px solid rgba(20, 25, 22, 0.3);
+    border-radius: 3px;
+    background-image: url(../image/becerril_1.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover; 
+    margin-bottom: 10px;
+    height: 220px;
+}
+.degradadoni{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.91) 82%, rgba(0,0,0,0.91) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.91) 82%,rgba(0,0,0,0.91) 100%); 
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.91) 82%,rgba(0,0,0,0.91) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#00000000', endColorstr='#e8000000',GradientType=0 ); 
+    margin-top: 163px;
+    padding-bottom:0px;
 
-div.cuadrito{
-	border: 1px solid rgba(31, 24, 24, 0.7);
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 h5 span.rojito{
-	color: red;
+    color: red;
+}
+h5.sobre{
+    color: white;
 }
 b.negrito{
-	color: black;
-	font-size: 10px;
+    color: black;
+    font-size: 12px;
 }
-p.parrafo{
-	padding-bottom: 5px;
-	padding-top: 15px;
-	font-size: 10px;
-}
-p.sobre{
-	position: absolute;
-	z-index: 1;
-	transform: translateY(-100%) translateX(0%);
-	color: white;
-	font-size: 12px;
-	background-color: rgba(29, 6, 6, 0.59);
-	padding-right: -5%;
-}
+
 img .publicidad{
 	width: 100%
 }
