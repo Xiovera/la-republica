@@ -1,10 +1,7 @@
- /* Seccion-noticias-importantes */
-/**{
-	outline: 1px solid red;
-}*/
-.row{
-	margin-top: 10px;
-}
+
+
+/* SECCION NOTICIAS IMPORTANTES */
+
 .noticias-importantes img{width: 100%;}
 
 .cuadrito{
@@ -38,3 +35,4 @@ p.sobre{
 img .publicidad{
 	width: 100%
 }
+/*FIN DE NOTICIAS IMPORTANTES*/
