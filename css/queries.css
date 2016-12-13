@@ -1,3 +1,4 @@
+
 /*QUERIES HEADER PRINCIPAL*/
 /*------------CELULARES-----*/
 @media screen and (max-width:767px){
@@ -131,4 +132,15 @@
 }
 
 /*FIN DEQUERIES MENU*/
+
+
+/*SECCION HERO*/
+@media screen and (max-width:1000px)  
+{
+    .titulo{ width: 70%; }
+    .titulo h1{ font-size: 25px; }
+}
+/*FIN SECCION HERO*/
+
+
 
