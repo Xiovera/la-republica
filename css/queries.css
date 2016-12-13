@@ -137,10 +137,10 @@
 /*SECCION HERO*/
 @media screen and (max-width:767px)
 {
-    .tituhero{ width: 100%; }
-    .tituhero { font-size: 25px; text-align: center;}
+    .hero .titulo .tituhero{ width: 100%; }
+    .hero .titulo .tituhero { font-size: 25px; text-align: center;}
+    #sec1 { margin-top: 20px; }
 }
 /*FIN SECCION HERO*/
-
 
 
