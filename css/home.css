@@ -1,8 +1,4 @@
-
-/*
-{
-	outline: 2px solid red;
-}*/
+/*SECCION HERO*/
 .titulo{ width: 80%; margin: 0 auto; }
 .titulo h1{font-size: 50px;}
 .hero .iconos ul li a :hover{ text-decoration: none;}
@@ -11,10 +7,8 @@
 .icono-facebook i { color: #074963; border-bottom: 3px solid #074963; }
 .icono-twitter i { color: #00adf1; border-bottom: 3px solid #00adf1; }
 .icono-google i { color: #d33e2f; border-bottom: 3px solid #d33e2f; }
-
 .degradado
-{
-    
+{ 
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.91) 82%, rgba(0,0,0,0.91) 100%);
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.91) 82%,rgba(0,0,0,0.91) 100%); 
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.91) 82%,rgba(0,0,0,0.91) 100%); 
@@ -41,7 +35,6 @@
     background-position: top;
     margin-top: 20px;
 }
-
 .noticia_principal h4
 {
     font-size: 34px;
@@ -56,7 +49,6 @@
 {
     color: #fff;
 }
-
 .noticia_secundaria1 h4 a
 {
     color: #fff;
@@ -72,4 +64,4 @@
     padding-bottom: 2%;
     margin-left: 20px;
 }
-/*-- END SECCION TITULAR--*/
+/*SECCION HERO*/
