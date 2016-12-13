@@ -1,7 +1,9 @@
 /*SECCION HERO*/
-@media screen and (max-width:1000px)  
+@media screen and (max-width:367px)  
 {
 	.titulo{ width: 70%; }
 	.titulo h1{ font-size: 25px; }
+	.sec1 { margin-top: 20px; }
+
 }
 /*FIN SECCION HERO*/
