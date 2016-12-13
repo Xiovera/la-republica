@@ -1,15 +1,13 @@
 
-
-*
+/*.hero .row
 {
     outline: 2px solid green;
-}
+
+}*/
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{
     font-family: font-family: 'Heebo', sans-serif;
 }
-
-
 .ultimas-noticias h4{
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
