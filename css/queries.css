@@ -133,11 +133,31 @@
 
 /*FIN DEQUERIES MENU*/
 /*ULTIMAS NOTICIAS*/
-@media screen and (max-width:767px)
-{
-    .ultimas-noticias .logo { padding: 50px;} 
+@media screen and (max-width: 767px) {
+    .aweita-noticia {
+        padding: 10px 40px;
+    }
+    
+    .aweita-noticia p{
+        font-size: 1.2em;
+    }
+    
+    .texto-foto p{
+        font-size: 1.5em
+    }
+    
+    .imagenmin-foto img{
+        width: 100%;
+    }
+    
+    .textomin-foto p{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
 }
 
+/*ULTIMAS NOTICIAS*/
 /*SECCION HERO*/
 @media screen and (max-width:767px)
 {
@@ -148,3 +168,7 @@
 /*FIN SECCION HERO*/
 
 
+@media screen and (max-width:767px)
+{
+    .ultimas-noticias .logo { padding: 50px;} 
+}
