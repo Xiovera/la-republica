@@ -2,12 +2,12 @@
 section.temas-dia .col-xs-10{
     padding: 0;
 }
+
 .box-temas-dia{
   
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
     font-size: 18px;
-
 }
 .titulo{
     background: #070C10;
@@ -36,6 +36,8 @@ section.temas-dia .col-xs-10{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;   
 }
-
+.td-contenido{
+    overflow: hidden;
+}
 /*--------------END---section.temas-del-dia*/
 
