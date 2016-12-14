@@ -137,6 +137,17 @@
     .conten{
         width: 90%;
     }
+    
+    .imagen{
+        width: 90px;
+    }
+    
+    .texto{
+        width: 90px;
+        position: absolute;
+        top: 110px;
+        left: 100px
+    }
 }
 
 
@@ -183,3 +194,8 @@
 
 
 /*FIN SECCION HERO*/
+
+
+
+
+
