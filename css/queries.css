@@ -184,3 +184,30 @@
 }
 /*FIN SECCION HERO*/
 
+
+/*ULTIMAS NOTICIAS*/
+
+@media screen and (max-width: 767px) {
+    .aweita-noticia {
+        padding: 10px 40px;
+    }
+    
+    .aweita-noticia p{
+        font-size: 1.2em;
+    }
+    
+    .texto-foto p{
+        font-size: 1.5em
+    }
+    
+    .imagenmin-foto img{
+        width: 100%;
+    }
+    
+    .textomin-foto p{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+}
+/*FIN NOTICIAS*/

@@ -7,11 +7,15 @@
 }*/
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 
+
  /*FIN DE LA SECCION ULTIMAS NOTICIAS*/
 
+
+/*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{
     font-family: font-family: 'Heebo', sans-serif;
 }
+
 .ultimas-noticias h4{
     font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
@@ -163,6 +167,7 @@ input[placeholder] {
 .sp1{
     padding: 10px 0;
 }
+
 
 
 /* SECCION NOTICIAS IMPORTANTES */
