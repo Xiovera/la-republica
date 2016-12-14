@@ -1,1 +1,33 @@
-/* Inserta tu código de la página contacto acá */
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/*------------section.contactos--*/
+.form{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.input-cont,.mensaje,.mensaje{
+    margin-bottom: 15px; 
+    background: #F5F5F5;
+    border-top: groove 1px gray;
+    border-left: groove 2px gray;
+}
+.box-btn-enviar{
+    text-align: center;  
+}
+.box-btn-enviar button{
+    margin: 0 auto; 
+    padding: 0 60px;   
+    background: #252D34;  
+    color: #fff;
+}
+/*----------END--section.contactos--*/
