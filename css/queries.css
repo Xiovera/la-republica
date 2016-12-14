@@ -1,46 +1,12 @@
-
-/*QUERIES HEADER PRINCIPAL*/
 /*------------CELULARES-----*/
-@media screen and (max-width:767px){
-    header{
-        text-align: center;
-        margin: 0 30px;        
-    } 
-    section.header-principal .izquierda{
-        text-align: left;
-    }     
-    section.header-principal .box-editorial{
-        bottom: 16%; 
+/*------------CELULARES-----*/
+@media screen and (max-width:408px){
+/*QUERIES HEADER PRINCIPAL*/    
+ section.header-principal .box-editorial{
+        bottom: 28%; 
     }
     section.header-principal .box-texto .box-editorial span{
         font-size: 13px;    
-    }
-    section.header-principal .medio p,.box-texto .text-img p{
-        font-size: 22px;
-    }
-    .box-texto .text-img p{
-        padding: 10px 45px 10px 20px ;   
-    }
-    section.header-principal .medio{
-        margin-top: 0px;
-        padding: 10px 0;
-    }  
-
-}
-/*------------Table-----*/
-@media screen and (min-width:768px) and (max-width:991px){
-    header{
-        text-align: center;
-        margin: 0 auto;        
-    } 
-    section.header-principal .izquierda{
-        text-align: left;
-    }     
-    section.header-principal .box-editorial{
-        bottom: 16%; 
-    }
-    section.header-principal .box-texto .box-editorial span{
-        font-size: 14px;    
     }
     section.header-principal .medio p,.box-texto .text-img p{
         font-size: 19px;
@@ -51,13 +17,179 @@
     section.header-principal .medio{
         margin-top: 0px;
         padding: 10px 0;
+    } 
+/*----END---QUERIES HEADER PRINCIPAL*/    
+/*-------MENU*/
+     
+/*----END---MENU*/    
+}
+@media screen and (min-width:409px) and (max-width:485px){
+/*QUERIES HEADER PRINCIPAL*/      
+ section.header-principal .box-editorial{
+        bottom: 18%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    } 
+/*----END---QUERIES HEADER PRINCIPAL*/  
+/*-------MENU*/
+    
+/*----END---MENU*/    
+}
+@media screen and (min-width:486px) and (max-width:680px){
+/*QUERIES HEADER PRINCIPAL*/     
+ section.header-principal .box-editorial{
+        bottom: 18%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    } 
+/*----END---QUERIES HEADER PRINCIPAL*/
+/*-------MENU*/
+    
+/*----END---MENU*/
+section.temas-dia{
+        margin: 0 1px;
+    }
+    section.temas-dia .titulo{
+        font-size: 6.85px;  
+        padding: 7px 5px ;
+        line-height: 2.05;
     }    
+}
+@media screen and (min-width:681px) and (max-width:767px){
+    /*QUERIES HEADER PRINCIPAL*/
+    header{
+        text-align: center;
+        margin: 0 30px;        
+    } 
+    section.header-principal .izquierda{
+        text-align: left;
+    }     
+    section.header-principal .box-editorial{
+        bottom: 22%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }   
+    /*FIN QUERIES HEADER PRINCIPAL*/
+/*-------MENU*/
+     
+/*----END---MENU*/
+        /* TEMAS DEL DÍA*/
+    section.temas-dia{
+        margin: 0 30px;
+    }
+    section.temas-dia .titulo{
+        font-size: 8.85px;  
+        padding: 7px 5px ;
+        line-height: 1.85;
+    }
+    /*FIN TEMAS DEL DÍA*/
+}
+/*------------Table-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+    /*QUERIES HEADER PRINCIPAL*/
+    header{
+        text-align: center;
+        margin: 0 auto;        
+    } 
+    section.header-principal .izquierda{
+        text-align: left;
+    }     
+    section.header-principal .box-editorial{
+        bottom: 27%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }    
+    /*FIN QUERIES HEADER PRINCIPAL*/
+/*-------MENU*/
+    
+/*----END---MENU*/
+        /* TEMAS DEL DÍA*/
+    section.temas-dia .titulo{
+        font-size: 12.7px;    
+    }
+    /*FIN TEMAS DEL DÍA*/
 }
 
 /*------------Desktop-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
+    /*QUERIES HEADER PRINCIPAL*/
     section.header-principal .box-texto .box-editorial span{
-        font-size: 11px;
+        font-size: 9px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 12px;
+    }
+    section.header-principal .derecha .box-texto { 
+        margin-left: 20px;
+    }     
+    .box-editorial{
+        bottom: 10%; 
+    }
+    /*FIN QUERIES HEADER PRINCIPAL*/
+/*-------MENU*/
+    .box-menu .nav>li>a{
+        padding: 5px 2.1px;  
+        font-size: 10.4px;
+    } 
+/*----END---MENU*/
+}
+
+/*------------Desktop large-----*/
+@media screen and (min-width:1200px){
+    /*QUERIES HEADER PRINCIPAL*/
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 9px;
     }
     .box-texto .text-img p{
         padding: 10px 45px 10px 20px ;   
@@ -71,37 +203,17 @@
     }
     section.header-principal .derecha .box-texto { 
         margin-left: 20px;
-    }     
-    .box-editorial{
-        bottom: 2%; 
-    }
-}
-
-/*------------Desktop large-----*/
-@media screen and (min-width:1200px){
-    section.header-principal .box-texto .box-editorial span{
-        font-size: 11px;
-    }
-    .box-texto .text-img p{
-        padding: 10px 45px 10px 20px ;   
-    }
-    section.header-principal .medio{
-        margin-top: 0px;
-        padding: 10px 0;
-    }
-    section.header-principal .medio p,.box-texto .text-img p{
-        font-size: 18px;
-    }
-    section.header-principal .derecha .box-texto { 
-        margin-left: 20px;
     }   
     .box-editorial{
-    bottom: 12%; 
+        bottom: 18%; 
     }
+    /*FIN QUERIES HEADER PRINCIPAL*/
+    /* TEMAS DEL DÍA*/
+    .titulo{
+        font-size: 12px;    
+    }
+    /*FIN TEMAS DEL DÍA*/
 }
-/*FIN QUERIES HEADER PRINCIPAL*/
-
-
 
 /*QUERIES MENU*/
 /*------------CELULARES-----*/
@@ -133,14 +245,6 @@
 
 /*FIN DEQUERIES MENU*/
 
-
-/*SECCION HERO*/
-@media screen and (max-width:767px)
-{
-    .tituhero{ width: 100%; }
-    .tituhero { font-size: 25px; text-align: center;}
-}
-/*FIN SECCION HERO*/
 
 
 

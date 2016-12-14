@@ -8,7 +8,26 @@
 body *{
     font-family: font-family: 'Heebo', sans-serif;
 }
+/*--SECTION BANNER2--*/
+section.banner2 img{
+    width: 100%; 
+        margin: 0;
+}
+.box-banner2{
+    position: relative;
 
+}
+section.banner2 a{
+    display: block;    
+}
+section.banner2 .open{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+ 
+}
+/*--FIN SECTION BANNER2--*/
 
 .ultimas-noticias h4{
     font-family: 'Heebo', sans-serif;
