@@ -1,5 +1,59 @@
 /*------------CELULARES-----*/
-@media screen and (max-width:767px){
+@media screen and (max-width:408px){
+ section.header-principal .box-editorial{
+        bottom: 28%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }      
+}
+@media screen and (min-width:409px) and (max-width:485px){
+ section.header-principal .box-editorial{
+        bottom: 18%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }     
+}
+@media screen and (min-width:486px) and (max-width:680px){
+ section.header-principal .box-editorial{
+        bottom: 18%; 
+    }
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 13px;    
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 19px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }  
+}
+@media screen and (min-width:681px) and (max-width:767px){
     header{
         text-align: center;
         margin: 0 30px;        
@@ -8,13 +62,13 @@
         text-align: left;
     }     
     section.header-principal .box-editorial{
-        bottom: 16%; 
+        bottom: 22%; 
     }
     section.header-principal .box-texto .box-editorial span{
         font-size: 13px;    
     }
     section.header-principal .medio p,.box-texto .text-img p{
-        font-size: 22px;
+        font-size: 19px;
     }
     .box-texto .text-img p{
         padding: 10px 45px 10px 20px ;   
@@ -35,10 +89,10 @@
         text-align: left;
     }     
     section.header-principal .box-editorial{
-        bottom: 16%; 
+        bottom: 27%; 
     }
     section.header-principal .box-texto .box-editorial span{
-        font-size: 14px;    
+        font-size: 13px;    
     }
     section.header-principal .medio p,.box-texto .text-img p{
         font-size: 19px;
@@ -55,7 +109,29 @@
 /*------------Desktop-----*/
 @media screen and (min-width:992px) and (max-width:1199px){
     section.header-principal .box-texto .box-editorial span{
-        font-size: 11px;
+        font-size: 9px;
+    }
+    .box-texto .text-img p{
+        padding: 10px 45px 10px 20px ;   
+    }
+    section.header-principal .medio{
+        margin-top: 0px;
+        padding: 10px 0;
+    }
+    section.header-principal .medio p,.box-texto .text-img p{
+        font-size: 12px;
+    }
+    section.header-principal .derecha .box-texto { 
+        margin-left: 20px;
+    }     
+    .box-editorial{
+        bottom: 10%; 
+    }
+}
+/*------------Desktop large-----*/
+@media screen and (min-width:1200px){
+    section.header-principal .box-texto .box-editorial span{
+        font-size: 9px;
     }
     .box-texto .text-img p{
         padding: 10px 45px 10px 20px ;   
@@ -69,30 +145,8 @@
     }
     section.header-principal .derecha .box-texto { 
         margin-left: 20px;
-    }     
-    .box-editorial{
-        bottom: 2%; 
-    }
-}
-/*------------Desktop large-----*/
-@media screen and (min-width:1200px){
-    section.header-principal .box-texto .box-editorial span{
-        font-size: 11px;
-    }
-    .box-texto .text-img p{
-        padding: 10px 45px 10px 20px ;   
-    }
-    section.header-principal .medio{
-        margin-top: 0px;
-        padding: 10px 0;
-    }
-    section.header-principal .medio p,.box-texto .text-img p{
-        font-size: 18px;
-    }
-    section.header-principal .derecha .box-texto { 
-        margin-left: 20px;
     }   
     .box-editorial{
-    bottom: 12%; 
+    bottom: 16%; 
     }
 }
