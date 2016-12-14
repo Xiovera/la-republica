@@ -5,6 +5,8 @@
     outline: 2px solid green;
 
 }*/
+
+
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 
 
@@ -17,10 +19,11 @@
     padding: 50px 0;
 }
 
-.columnistas .caja{
+.columnistas .caja {
     text-align: center;
     background-color: #f2f2f2;
     border-top: 5px solid #c71100;
+    |margin: 0 100px;
 }
 
 .columnistas .caja .titulo{
@@ -38,6 +41,7 @@
 
 .columnistas .sp{
     padding: 0;
+    |margin: 0 10px;
     text-align: center;
     |padding-left: 2px;
 }
@@ -280,6 +284,7 @@ img .publicidad{
 .icono-google i { color: #d33e2f; border-bottom: 3px solid #d33e2f; }
 #etiqueta{color: #074963;}
 .hero .iconos li a small{color:white;}
+
 .degradado
 { 
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.91) 82%, rgba(0,0,0,0.91) 100%);
