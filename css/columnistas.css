@@ -1,1 +1,37 @@
 /* Inserta tu código de la página columnistas acá */
+
+.columnistas{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin:15px;
+    border-top: 8px solid #c71100;     
+}
+.sub-title{
+    padding: 10px 5px;
+    background-color: #c71100;
+    width: 150px;
+    color: #ffffff;
+     margin: auto;
+    margin-top: -15px;
+}
+.columnistas li {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    padding-right: 3px;
+   
+}
+.columnistas li img {
+    width:80%;
+    border:5px solid #fff;
+}
+.columnistas li p:nth-child(3) {
+  font-weight: bold;
+   
+}
+.columna .container ul {
+    padding: 0; 
+}
+
+
+
