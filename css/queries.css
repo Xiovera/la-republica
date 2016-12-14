@@ -31,6 +31,10 @@
     .columnistas{
         margin: 0 25px;
     }
+    
+    .blog .conten{
+        width: 100%;
+    }
 }
 
 

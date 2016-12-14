@@ -1,4 +1,4 @@
-/* Inserta tu código de la página columnistas acá 
+
 /* Inserta tu código de la página columnistas acá */
 *{
 	box-sizing: border-box;
@@ -142,3 +142,13 @@
 		position: relative;
 	}
 }
+
+.clea|rfix {
+	display: table;
+}
+.cle|arfix:after {
+	content:" ";
+	clear:both;
+}
+
+

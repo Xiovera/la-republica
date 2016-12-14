@@ -143,11 +143,14 @@ section.header-principal .medio span{
     position: relative;
     top: -20px;
 }
-section.header-principal .col-xs-12{
-    padding-right: 0;
-    padding-left: 0;
+section.header-principal .col-xs-12 img:nth-child(1) {
+    width: 80%;
+    margin-left: 60px;
 }
 
+section.header-principal .col-xs-12:nth-child(2) p{
+    font-size: 0.98em;
+}
 section.header-principal .derecha .box-texto {   
     background: #252D34;
 }
