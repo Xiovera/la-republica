@@ -139,10 +139,10 @@
     }
     
     .texto{
-        width: 90px;
-        position: absolute;
-        top: 110px;
-        left: 100px
+        |width: 90px;
+        |position: absolute;
+        |top: 110px;
+        |left: 100px
     }
 }
 /*------------TABLET-----*/
