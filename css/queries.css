@@ -129,13 +129,7 @@
         bottom: 10%; 
     }
 }
-<<<<<<< HEAD
-@media screen and (min-width:1200px){   
-}
 
-/*FIN DEQUERIES MADAY*/
-
-=======
 /*------------Desktop large-----*/
 @media screen and (min-width:1200px){
     section.header-principal .box-texto .box-editorial span{
@@ -155,7 +149,7 @@
         margin-left: 20px;
     }   
     .box-editorial{
-    bottom: 16%; 
+        bottom: 18%; 
     }
 }
 /*FIN QUERIES HEADER PRINCIPAL*/
