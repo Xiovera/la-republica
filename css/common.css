@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 /* SECCION DEL BANNER_1 */
+.banner1{background-color: #f4f5f7;}
 .banner1  img
 {
     width: 100%;
@@ -215,6 +216,8 @@ header nav a{
     color: #fff;
 }
 /*--------------END---MENU*/
+
+
 
 /*SECCION DEL FOOTER*/
 footer { background-color:#E7E6E6; color:#6B6B6B;}
