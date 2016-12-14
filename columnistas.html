@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>La Répública - Columnistas</title>
-  <!-- Inserta tus enlaces aquí -->
+    <meta charset="UTF-8">
+    <title>La Répública - Columnistas</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet">
+    <link rel="shortcut icon" href="lr.ico">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/columnistas.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
+
+
 </head>
+
 <body>
-<!-- Inserta tu código aquí -->
+    
+    <script type="text/javascript">
+        var options = {
+  valueNames: [
+    'name',
+    'born',
+    { data: ['id'] },
+    { attr: 'src', name: 'image' },
+    { attr: 'href', name: 'link' },
+    { attr: 'data-timestamp', name: 'timestamp' }
+  ]
+};
+var userList = new List('users', options);
+userList.add({ name: 'Leia', born: '1954', image: 'http://www.listjs.com/images/tests/leia.jpeg', id: 5, timestamp: '67893' });
+    </script>
+    
+    
+    
+    
+    <script src="http://listjs.com/assets/javascripts/list.min.js"></script>
+
+<div id="users">
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="name">
+    Sort by name
+  </button>
+  <ul class="list">
+    <li data-id="1">
+      <a href="https://twitter.com/javve" class="link name">Jonny Stromberg</a>
+      <p class="born timestamp" data-timestamp="12345">1986</p>
+      <img class="image" src="http://www.listjs.com/images/tests/luke.jpeg">
+    </li>
+    <li data-id="2">
+      <a href="https://twitter.com/arnklint" class="link name">Jonas Arnklint</a>
+      <p class="born timestamp" data-timestamp="23456">1985</p>
+      <img class="image" src="http://www.listjs.com/images/tests/darth.jpeg">
+    </li>
+    <li data-id="3">
+      <a href="https://twitter.com/martinaelm" class="link name">Martina Elm</a>
+      <p class="born timestamp" data-timestamp="34567">1986</p>
+      <img class="image" src="http://www.listjs.com/images/tests/rey.jpeg">
+    </li>
+    <li data-id="4">
+      <a href="https://twitter.com/GLindqvist" class="link name">Gustaf Lindqvist</a>
+      <p class="born timestamp" data-timestamp="45678">1983</p>
+      <img class="image" src="http://www.listjs.com/images/tests/boba.jpeg">
+    </li>
+  </ul>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <section class="colum-java">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+                    <div class="row">
+                        <h4>TODOS LOS COLUMNISTAS <img src="image/double-arrow-bottom.png" alt=""></h4>
+                    </div>
+                    <div class="users">
+                        <div class="row menu-java">
+                        <button class="sort" data-sort="name">
+    Sort
+  </button>
+                        <a href="#">ABC</a>
+                        <a href="#">DEF</a>
+                        <a href="#">JKL</a>
+                        <a href="#">MNO</a>
+                        <a href="#">PQRS</a>
+                        <a href="#">TUV</a>
+                        <a href="#">WXYZ</a>
+                    </div>
+                    <div class="row lista-java">
+                        <ul class="list">
+                            <li>
+                                <p class="name">Alejandra Cruz</p>
+                            </li>
+                            <li>
+                                <p class="name">Claudia Cisnero</p>
+                            </li>
+                            <li>
+                                <p class="name">Eduardo Dargent</p>
+                            </li>
+                            <li>
+                                <p class="name">Jason Day</p>
+                            </li>
+                            <li>
+                                <p class="name">Mijael Garrido Lecca</p>
+                            </li>
+                            <li>
+                                <p class="name">Pedro Salinas</p>
+                            </li>
+                            <li>
+                                <p class="name">Mario Vargas Llosa</p>
+                            </li>
+                            <li>
+                                <p class="name">Zejo Cortez</p>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
+
 </html>

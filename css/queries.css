@@ -130,24 +130,11 @@
 /*----------END--iPhone 5-----*/
 
 @media screen and (max-width:767px) {
-    .menu {
-        visibility: hidden;
+    
+    .columnistas{
+        margin: 0 25px;
     }
     
-    .conten{
-        width: 90%;
-    }
-    
-    .imagen{
-        width: 90px;
-    }
-    
-    .texto{
-        width: 90px;
-        position: absolute;
-        top: 110px;
-        left: 100px
-    }
 }
 
 
