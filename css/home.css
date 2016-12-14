@@ -10,6 +10,67 @@
 
  /*FIN DE LA SECCION ULTIMAS NOTICIAS*/
 
+/*-------------- SECTION COLUMNISTAS --------------*/
+
+
+.columnistas{
+    padding: 50px 0;
+}
+
+.columnistas .caja{
+    text-align: center;
+    background-color: #f2f2f2;
+    border-top: 5px solid #c71100;
+}
+
+.columnistas .caja .titulo{
+    padding-bottom: 20px;
+}
+
+.columnistas .caja .titulo a{
+    font-size: 1.3em;
+    padding: 10px 10px;
+    margin-top: -10px;
+    background-color: #c71100;
+    color: #fff;
+    text-decoration: none;
+}
+
+.columnistas .sp{
+    padding: 0;
+    text-align: center;
+    |padding-left: 2px;
+}
+
+.columnistas ul{
+    padding: 0;
+}
+
+.columnistas .lista li{
+    display: inline-block;
+    vertical-align: top;
+    width: 95px;
+    margin: 0 11px;
+}
+
+.columnistas .lista li img{
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.columnistas .lista p{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.columnistas .lista p:nth-child(3){
+    font-size: 0.9em;
+    margin-top: -7px;
+    font-weight: bold;
+}
+
+
 
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{

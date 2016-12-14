@@ -28,6 +28,9 @@
         margin-top: 0px;
         padding: 10px 0;
     }
+    .columnistas{
+        margin: 0 25px;
+    }
 }
 
 
@@ -139,10 +142,10 @@
     }
     
     .texto{
-        width: 90px;
-        position: absolute;
-        top: 110px;
-        left: 100px
+        |width: 90px;
+        |position: absolute;
+        |top: 110px;
+        |left: 100px
     }
 }
 /*------------TABLET-----*/
