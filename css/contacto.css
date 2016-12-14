@@ -1,21 +1,12 @@
-{
-    padding: 0;
-    margin: 0;
-}
+
 body{
     padding: 0;
     margin: 0;
 }
 /*------------section.contactos--*/
-.contacto
-{
-    position: relative;
-}
+
 .form{
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
+
     margin: 0 auto;
 }
 
@@ -25,10 +16,7 @@ body{
     border-top: groove 1px gray;
     border-left: groove 2px gray;
 }
-.box-btn-enviar{
-    text-align: center;  
-}
-.box-btn-enviar button{
+ button{
     margin: 0 auto; 
     padding: 0 60px;   
     background: #252D34;  

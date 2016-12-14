@@ -235,3 +235,9 @@ footer h4{color: black;}
 .post-footer{ padding: 10px ; border-top: 2px solid #ECEBEB;}
 /**FIN DE SECCION FOOTER/
 
+/*foot*/
+.foo
+{
+    background: #252D34;  
+    color: white;
+}
