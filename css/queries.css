@@ -203,18 +203,7 @@
     }
 }
 /*FIN SECCION HERO*/
-/*COLUMNISTAS*/
-@media screen and (max-width: 767px) {
 
-.columnistas .sp{
-   
-    margin-right:30px;
-    }
-    .columnistas .caja {
-       background-color: #CACACA;
-   
-}
-}
 /*ULTIMAS NOTICIAS*/
 
 @media screen and (max-width: 767px) {

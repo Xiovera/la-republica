@@ -228,5 +228,10 @@ footer h4{color: black;}
 .line{color: black;}
 .linea a { text-decoration:none; color: #AFADAD;}
 .post-footer{ padding: 10px ; border-top: 2px solid #ECEBEB;}
-/**FIN DE SECCION FOOTER/
+/**FIN DE SECCION FOOTER*/
 
+.foo
+{
+    background: #252D34;  
+    color: white;
+}

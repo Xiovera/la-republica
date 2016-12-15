@@ -1,19 +1,5 @@
 
-
-/*.hero .row
-{
-    outline: 2px solid green;
-
-}*/
-
-
-/*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
-
-
- /*FIN DE LA SECCION ULTIMAS NOTICIAS*/
-
 /*-------------- SECTION COLUMNISTAS --------------*/
-
 
 .columnistas{
     padding: 50px 0;
@@ -73,9 +59,7 @@
     margin-top: -7px;
     font-weight: bold;
 }
-
-
-
+/*FIN DE COLUMNISTAS*/
 /*-------------- SECTION ULTIMAS-NOTICIAS --------------*/
 body *{
     font-family: font-family: 'Heebo', sans-serif;
