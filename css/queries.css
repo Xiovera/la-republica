@@ -2,6 +2,76 @@
 
 
 /*------------CELULARES-----*/
+@media screen and (max-width:525px){
+    ..titulo-temas-dia{
+            font-size: 8px;
+        }     
+}
+@media screen and (min-width:526px) and (max-width:631px){
+    ..titulo-temas-dia{
+            font-size: 10px;
+            line-height: 18px;
+        }    
+}
+@media screen and (max-width:631px){
+..titulo-temas-dia{
+        font-size: 10px;
+        line-height: 18px;
+    }    
+}
+/*------------ultimo cambio*/
+/*------------section.temas-dia-----*/   
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    margin-left: -36px;
+    margin-right: -36px; 
+}
+    .td-contenido{
+        overflow: hidden;
+    }
+
+/*----------END--section.temas-dia-----*/
+}
+/*------------Table-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+/*------------section.temas-dia-----*/   
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    margin-left: -46px;
+    margin-right: -46px; 
+}
+
+/*----------END--section.temas-dia-----*/ 
+}
+
+/*------------Desktop-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    /*------------section.temas-dia-----*/ 
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    margin-left: -56px;
+    margin-right: -56px;
+}  
+/*----------END--section.temas-dia-----*/ 
+}
+/*------------Desktop large-----*/
+@media screen and (min-width:1200px){
+/*------------section.temas-dia-----*/   
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    margin-left: -66px;
+    margin-right: -66px; 
+}
+
+/*----------END--section.temas-dia-----*/     
+}
+/*fin ultimo cambio*/
+@media screen and (min-width:632px) and (max-width:663px){
+..titulo-temas-dia{
+        font-size: 12.749999px;
+    }     
+}
+@media screen and (min-width:664px) and (max-width:697px){
+    ..titulo-temas-dia{
+        font-size: 13.5px;
+    }    
+}
 
 @media screen and (max-width:767px) {
     header {

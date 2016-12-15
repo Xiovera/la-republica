@@ -218,6 +218,54 @@ header nav a{
 }
 /*--------------END---MENU*/
 
+
+/*-----------------------------------------------CSS-------------------------------------------*/
+/*-----------------section.temas-del-dia*/
+/*section.temas-dia{
+    margin: 30px;
+}*/
+section.temas-dia .col-xs-10{
+    padding: 0;
+}
+
+.box-temas-dia{
+  
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    font-size: 18px;
+}
+.titulo-temas-dia{
+    background: #070C10;
+    color: #fff;
+    padding: 5px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.carousel-inner{
+    padding: 5px 27px;
+    background: #E4E8EB;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.punto{
+    font-size: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 7px;
+}
+.carousel-inner a{
+    text-decoration: none;
+    color: #333; 
+}
+.carousel-control{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;   
+}
+.td-contenido{
+    overflow: hidden;
+}
+/*--------------END---section.temas-del-dia*/
+
 /*SECCION DEL FOOTER*/
 footer { background-color:#E7E6E6; color:#6B6B6B;}
 footer h4{color: black;}
