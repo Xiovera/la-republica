@@ -169,12 +169,25 @@
     
     
 }
-@media screen and (min-width:1200px) {}
+
 
 
 /*FIN DEQUERIES MENU*/
 
-
+/*POST BANNER*/
+@media screen and (min-width:1000px) {
+    .diarios li 
+    {
+        margin-right: 0px;
+        padding-left:  0px;
+    }
+    .redes .sub a 
+    {
+        color: #fff;
+        padding: 10px 10px;
+    }
+ 
+}
 /*SECCION HERO*/
 
 @media screen and (max-width:767px) {
@@ -190,8 +203,18 @@
     }
 }
 /*FIN SECCION HERO*/
+/*COLUMNISTAS*/
+@media screen and (max-width: 767px) {
 
-
+.columnistas .sp{
+   
+    margin-right:30px;
+    }
+    .columnistas .caja {
+       background-color: #CACACA;
+   
+}
+}
 /*ULTIMAS NOTICIAS*/
 
 @media screen and (max-width: 767px) {

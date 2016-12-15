@@ -1,11 +1,11 @@
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 /* SECCION DEL BANNER_1 */
-.banner1{background-color: #f4f5f7;}
+.banner1{  background-color: #f4f5f7;}
+
 .banner1  img
 {
     width: 100%;
@@ -16,21 +16,22 @@
 .post-banner1 
 {
     font-size: 0.8em;
-    padding: 20px 0;
+    padding: 20px 10px;
     background-color: #f4f5f7;
+    
 }
 .diarios
 {
-    padding-left: 0;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-bottom: 10px;
-    margin-right: 40px;
 }
 
 .diarios li 
 {
     display: inline-block;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .diarios li a 
@@ -92,24 +93,23 @@
 .search input {
     width: 0px;
     float:right;
-    |margin-left: 100px;
+    margin-left: 100px;
     transition: all 0.7s ease-in-out;
-    |height: 30px;
+    height: 30px;
     line-height: 18px;
-    |padding: 0 2px 0 2px;
+    padding: 0;
     margin-top: -11px;
 
 }
 .search:hover input, .search input:focus {
-    width: 350px;
-    margin-left: -260px;
-    |margin-right: 100px;
+    width: 200px;
+    margin-right: 10px;
 }
 
 .btn {
     height: 30px;
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 5px;
     border-radius:1px;
     margin-top: -11px;
@@ -118,7 +118,7 @@
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     font-size: 1em;
-    border-left: 1px solid rgba(167, 165, 165, 0.69);
+	border-left: 1px solid rgba(167, 165, 165, 0.69);
     border-right: 1px solid rgba(167, 165, 165, 0.69);
     
 }
@@ -143,14 +143,11 @@ section.header-principal .medio span{
     position: relative;
     top: -20px;
 }
-section.header-principal .col-xs-12 img:nth-child(1) {
-    width: 80%;
-    margin-left: 60px;
+section.header-principal .col-xs-12{
+    padding-right: 0;
+    padding-left: 0;
 }
 
-section.header-principal .col-xs-12:nth-child(2) p{
-    font-size: 0.98em;
-}
 section.header-principal .derecha .box-texto {   
     background: #252D34;
 }
@@ -221,8 +218,6 @@ header nav a{
 }
 /*--------------END---MENU*/
 
-
-
 /*SECCION DEL FOOTER*/
 footer { background-color:#E7E6E6; color:#6B6B6B;}
 footer h4{color: black;}
@@ -235,9 +230,3 @@ footer h4{color: black;}
 .post-footer{ padding: 10px ; border-top: 2px solid #ECEBEB;}
 /**FIN DE SECCION FOOTER/
 
-/*foot*/
-.foo
-{
-    background: #252D34;  
-    color: white;
-}
